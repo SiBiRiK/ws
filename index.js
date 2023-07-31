@@ -1,4 +1,4 @@
-const port = 666
+const port = 3000
 const http = require('http');
 const WebSocket = require('ws');
 const rateLimit = require('ws-rate-limit')('2s', 10)
